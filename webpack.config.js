@@ -9,6 +9,7 @@ module.exports = {
     path: path.resolve(__dirname, "app")
   },
   devServer: {
+    disableHostCheck: true,
     before: function (app, server) {
       server._watch("./app/**/*.html")
     },

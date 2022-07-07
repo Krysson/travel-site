@@ -1,11 +1,12 @@
 .row {
+
   @mixin clearfix;
 
   &--gutters {
     margin-right: -65px;
   }
 
-  &--row--gutters-large {
+  &--gutters-large {
     margin-right: -100px;
   }
 
@@ -22,6 +23,7 @@
   }
 
   @mixin atMedium {
+
     &__b-margin-until-medium {
       margin-bottom: 0;
     }
@@ -49,4 +51,6 @@
       width: 63%;
     }
   }
+  
+
 }

@@ -11,10 +11,11 @@
   }
 
   a {
-    color: white;
-    text-decoration: none;
+    color: #fff;
     font-weight: 300;
-    padding: 12px, 0;
+    text-decoration: none;
+    display: block;
+    padding: 12px 0;
   }
 
   &--pull-right {
